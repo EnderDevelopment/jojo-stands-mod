@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jojo_mod",
+  "version": "${version}",
+  "name": "JoJo Mod",
+  "description": "A Minecraft mod featuring JoJo's Bizarre Adventure stands.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.jojomod.JoJoMod"
+    ]
+  },
+  "mixins": [
+    "jojomod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}

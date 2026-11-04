@@ -1,0 +1,23 @@
+[mods]
+modId="jojo_mod"
+version="${file.jarVersion}"
+displayName="JoJo Mod"
+credits="YourName"
+authors="YourName"
+description='''
+A Minecraft mod featuring JoJo's Bizarre Adventure stands.
+'''
+
+[[dependencies.jojo_mod]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jojo_mod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
